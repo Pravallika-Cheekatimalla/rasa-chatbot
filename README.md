@@ -100,4 +100,6 @@ Troubleshooting
 - Check browser console for any JavaScript errors.
 
 
+![image](https://github.com/user-attachments/assets/91c4441c-d160-4722-8a3f-7a128b374382)
+
 
