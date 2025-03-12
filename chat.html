@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Box</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="chat.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<div  class="chat-box">
+  <div class="chat-box-header">
+      <h3>Chat</h3>
+      <p>
+        <i class="fa fa-times" onclick="closeChat()"></i> 
+      </p>
+  </div>
+  <div class="chat-box-body" id="messages">
+    
+  </div>
+  <div class="chat-box-footer">
+      <input placeholder="Enter Your Message" type="text" id="user_input">
+<button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+
+<div class="chat-button" onclick="openChat()">
+  <span></span>
+</div>
+
+
+</body>
+</html>
